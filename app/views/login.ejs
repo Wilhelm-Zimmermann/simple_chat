@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/login.css">
+	<title>Login | Chat</title>
+</head>
+<body>
+
+	<form id='formLogin' method="post">
+		<h1>Join to chat</h1>
+		<%if(errors.length > 0){%>
+		<%for(let i = 0 ; i < errors.length ; i++){%>
+			<p style="color:red;"><%= errors[i].msg %></p>
+		<%}%>
+	<%}%>		<div>
+			<input id='user' type="text" name='user' placeholder="User">
+		</div>
+		
+		<input id='btnLogin' type="submit" value='Join'>
+	</form>
+</body>
+</html>

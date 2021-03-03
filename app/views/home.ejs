@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>Chat</title>
+</head>
+<body>
+
+	<header>
+		<div class="center flex">
+
+			<div class="logo"><h1>Chat</h1></div><!-- logo -->
+
+			<nav class="desktop_menu">
+				<ul>
+					<li><a id='chat' href="#">Chat</a></li>
+				</ul>
+			</nav><!-- desktop_menu -->
+
+		</div><!-- center -->
+	</header>
+
+	<section class="messages">
+		<div class="center" id='messages' >
+			<!-- here wil be updated in java script -->
+		</div><!-- center -->
+	</section>
+
+
+
+
+
+
+
+	<section>
+			<div class="send">
+				<input type="hidden" id='user' value='<%= user%>'>
+				<input type="text" id='txt_send' name='message' placeholder="Insira uma mensagem">
+				<input type="submit" id='btn_send' name='send' value='Send'>
+
+			</div><!-- send -->
+	</section>
+
+<script src='/socket.io/socket.io.js'></script>
+<script src='/js/main.js'></script>
+</body>
+</html>
