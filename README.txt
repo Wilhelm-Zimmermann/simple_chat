@@ -1,7 +1,20 @@
-Hello world
+# Hello world
 
-This is a simle chat project to show how websockets work.
-You are free to modify this project.
-If you find a bug ,please report on my facebook = 'Wilhelm Henrique Zimmermann'
+# What is this?
+This is a web chat
 
-Enjoy
+# Languages Used
+
+* Java Script
+* Css
+* Html
+
+# Dependencies
+
+* Socket io
+* Body Parser
+* Consign
+* Express
+* Express Session
+* Express Validator
+* Ejs
