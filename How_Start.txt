@@ -1,9 +1,0 @@
-1: You need to install nodejs https://nodejs.org
-
-2:open your terminal 
-3:go to the project folder
-4:type 'npm install'
-5:when all are installed type 'npm start'
-6:Last, open your browser on http://localhost:3000
-
-and Enjoy
