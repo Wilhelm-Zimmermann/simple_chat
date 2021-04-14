@@ -11,13 +11,14 @@ This is a web chat
 
 # Dependencies
 
-* Socket io
-* Body Parser
-* Consign
-* Express
-* Express Session
-* Express Validator
-* Ejs
+* Node JS
+  * Socket io
+  * Body Parser
+  * Consign
+  * Express
+  * Express Session
+  * Express Validator
+  * Ejs
 
 # What is socket io
 Socket.IO is a library that enables real-time,
