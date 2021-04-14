@@ -29,5 +29,5 @@ browser and the server
 # How to start
 * Open your **terminal**
 * Go to the main folder, where is the package.json
-  * And type **npm install** after installed , type **npm start**
+* And type `npm install` after installed , type `npm start`
 * Open your Browser on http://localhost:3000
